@@ -29,5 +29,31 @@ An automated Telegram bot that monitors your email for new real estate listings 
     python main.py
     ```
 
+## Running on macOS
+
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/Rusklass/ImmoMailBot.git
+    cd ImmoMailBot
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+
+3.  **Run the Bot**
+    ```bash
+    python3 main.py
+    ```
+
+4.  **Create macOS App (Executable)**
+    To create a standalone app that you can double-click:
+    ```bash
+    pyinstaller --onefile --name ImmoBot --windowed main.py
+    ```
+    - The app will be in the `dist` folder.
+    - Note: You might need to allow the app in "System Settings > Privacy & Security" if it's blocked.
+
 ## Disclaimer
 This bot is for educational purposes. Automated interaction with websites may violate their Terms of Service. Use at your own risk.
