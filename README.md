@@ -1,6 +1,6 @@
 # Immo Bot
 
-An automated Telegram bot that monitors your email for new real estate listings (ImmoScout24) and automatically sends a contact request.
+An automated Telegram bot that monitors your email for new real estate listings and automatically sends a contact request.
 
 ## Features
 - Monitors email for new notifications via IMAP.
